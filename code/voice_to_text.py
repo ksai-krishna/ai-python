@@ -1,5 +1,6 @@
 ### setup #### 
 # pip install SpeechRecognition
+# pip install pyaudio
 ###############
 
 import speech_recognition as sr
