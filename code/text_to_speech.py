@@ -14,5 +14,12 @@ tts = gTTS(text=text, lang='en')
 # Save the audio file
 audio_file="output.mp3"
 
+# For Any language
+# Telugu_text = "హలో ఎలా ఉన్నారు."
+# Telugu_tts = gTTS(text=Telugu_text, lang='te') # here lang is the language code for that language
+# audio_file="audio/Telugu.mp3"
+
+
 tts.save(audio_file)
 play(audio_file)
+
